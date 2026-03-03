@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | arbi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: "Segoe UI", sans-serif; background-color: #121212; color: #fff; margin: 0; padding: 0; line-height: 1.6; }
+        
+        /* Global Navigation Bar */
+        nav { background-color: #0a0a0a; padding: 15px 20px; border-bottom: 1px solid #333; display: flex; justify-content: space-between; align-items: center; }
+        .nav-brand { font-family: 'Comfortaa', cursive; font-size: 1.8rem; color: #fff; text-decoration: none; letter-spacing: -1px; margin: 0; }
+        .nav-links { display: flex; gap: 20px; }
+        .nav-links a { color: #a1a1a1; text-decoration: none; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; }
+        .nav-links a:hover { color: #27ae60; }
+
+        .container { background: #1a1a1a; padding: 40px; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); max-width: 800px; margin: 40px auto; border: 1px solid #333;}
+        h1 { color: #27ae60; border-bottom: 1px solid #333; padding-bottom: 15px; margin-top: 0; }
+        h2 { color: #fff; margin-top: 30px; font-size: 1.4em; }
+        p, li { margin-bottom: 15px; color: #ccc; }
+        .highlight-box { background-color: #222; border-left: 4px solid #27ae60; padding: 15px; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        .highlight-box h2 { margin-top: 0; }
+        .footer { margin-top: 50px; margin-bottom: 20px; font-size: 0.85em; color: #777; text-align: center; }
+        a { color: #27ae60; }
+
+        @media (max-width: 600px) {
+            nav { flex-direction: column; gap: 10px; }
+            .nav-links { flex-wrap: wrap; justify-content: center; }
+            .container { margin: 20px; padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html" class="nav-brand">arbi</a>
+    <div class="nav-links">
+        <a href="features.html">Features</a>
+        <a href="setup.html">Setup</a>
+        <a href="faq.html">FAQ</a>
+        <a href="about.html">About</a>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Privacy Policy</h1>
+    <p><strong>Effective Date:</strong> 20 February 2026</p>
+
+    <p>Welcome to <strong>arbi</strong>. This policy describes how we handle information when you use our application to interact with your Tesla battery.</p>
+
+    <h2>1. Overview of Data Collection</h2>
+    <p>We believe in data minimization. arbi does not own, store on its own servers, or sell your personal information or Tesla battery data. Your data is used only to provide the app's functionality on your local device.</p>
+
+    <div class="highlight-box">
+        <h2>2. Tesla Authentication & Data Handling</h2>
+        <p>This application uses <strong>Tesla’s Official Authentication (Tesla Login)</strong> to interact with your battery. </p>
+        <ul>
+            <li><strong>Login Process:</strong> When you log in, you are redirected to Tesla’s own secure servers. We never see, receive, or store your Tesla account password.</li>
+            <li><strong>Data Ownership:</strong> Any battery data accessed (such as battery status, location, or climate settings) is retrieved directly from Tesla. <strong>Tesla handles your personal and battery data in accordance with the <a href="https://www.tesla.com/legal/privacy" target="_blank">Tesla Privacy Notice</a>.</strong></li>
+            <li><strong>Tokens:</strong> Upon successful login, the app receives a secure "token" to communicate with your system. This token is stored encrypted on your local machine and is never shared with us or any third parties.</li>
+        </ul>
+    </div>
+
+    <h2>3. Local & Secure Data Storage</h2>
+    <p>Any preferences or battery settings you save within the app are stored locally on your device. <strong>Additionally, geocoding data (such as your location coordinates used for solar forecasting) is saved to your device's secure storage.</strong> Uninstalling the app will remove this locally secured data.</p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>Except for the direct communication with Tesla's API as described above, arbi does not share your data with any other third-party services or advertisers.</p>
+
+    <h2>5. Security</h2>
+    <p>We utilize standard device security protocols to protect the tokens and secure storage data on your device. However, you are responsible for maintaining the security of your device to prevent unauthorized access to the application.</p>
+
+    <h2>6. Contact</h2>
+    <p>For questions regarding this policy, please contact: <strong>arbi.elite@gmail.com</strong></p>
+</div>
+
+<div class="footer">
+    &copy; 2026 Petros Pashalis. This app is not affiliated with or endorsed by Tesla, Inc.
+</div>
+
+</body>
+</html>
