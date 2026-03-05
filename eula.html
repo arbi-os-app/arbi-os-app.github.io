@@ -7,21 +7,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body { font-family: "Segoe UI", sans-serif; background-color: #121212; color: #fff; margin: 0; padding: 0; line-height: 1.6; }
-        
-        /* Global Navigation Bar */
         nav { background-color: #0a0a0a; padding: 15px 20px; border-bottom: 1px solid #333; display: flex; justify-content: space-between; align-items: center; }
         .nav-brand { font-family: 'Comfortaa', cursive; font-size: 1.8rem; color: #fff; text-decoration: none; letter-spacing: -1px; margin: 0; }
         .nav-links { display: flex; gap: 20px; }
         .nav-links a { color: #a1a1a1; text-decoration: none; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; }
         .nav-links a:hover { color: #27ae60; }
-
         .container { background: #1a1a1a; padding: 40px; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); max-width: 800px; margin: 40px auto; border: 1px solid #333;}
         h1 { color: #27ae60; border-bottom: 1px solid #333; padding-bottom: 15px; margin-top: 0; }
         h2 { color: #fff; margin-top: 30px; font-size: 1.2em; }
         p, li { margin-bottom: 15px; color: #ccc; }
         .highlight-box { background-color: #332b00; border-left: 4px solid #ffb900; padding: 15px; margin: 20px 0; font-weight: bold; border-radius: 0 8px 8px 0; color: #ffeb99;}
         .footer { text-align: center; margin-top: 40px; margin-bottom: 20px; color: #666; font-size: 0.9em; }
-
         @media (max-width: 600px) {
             nav { flex-direction: column; gap: 10px; }
             .nav-links { flex-wrap: wrap; justify-content: center; }
@@ -43,14 +39,14 @@
 
 <div class="container">
     <h1>End User License Agreement</h1>
-    <p>Last Updated: February 20, 2026</p>
+    <p>Last Updated: March 6, 2026</p>
 
     <div class="highlight-box">
         PLEASE READ THIS AGREEMENT CAREFULLY. BY INSTALLING OR USING THE APPLICATION, YOU AGREE TO BE BOUND BY THESE TERMS.
     </div>
 
-    <h2>1. Scope of License</h2>
-    <p>The developer grants you a revocable, non-exclusive, non-transferable, limited license to download, install, and use the <strong>arbi</strong> application ("Software") strictly in accordance with the terms of this Agreement.</p>
+    <h2>1. Scope of License & Restrictions</h2>
+    <p>The developer grants you a revocable, non-exclusive, non-transferable, limited license to download, install, and use the <strong>arbi</strong> application ("Software") for personal, non-commercial purposes strictly in accordance with this Agreement. You agree not to reverse-engineer, decompile, disassemble, or attempt to derive the source code of the Software.</p>
 
     <h2>2. Third-Party API & Affiliation</h2>
     <p>This Software is a third-party utility. <strong>It is not affiliated with, endorsed by, or in any way officially connected with Tesla, Inc.</strong></p>
@@ -60,7 +56,7 @@
     </ul>
 
     <h2>3. Automated Charging Features</h2>
-    <p>Features that automate your battery behavior (such as targeting specific rates or times) operate based on your input. By enabling these features, you acknowledge:</p>
+    <p>Features that automate your battery behavior operate based on your input. By enabling these features, you acknowledge:</p>
     <ul>
         <li>You are responsible for the accuracy of the energy rates and times entered into the app.</li>
         <li>The developer is not liable for any electricity billing discrepancies or increased costs from your utility provider.</li>
@@ -68,18 +64,33 @@
     </ul>
 
     <h2>4. Solar Forecasting & System Estimates</h2>
-    <p>Any solar generation forecasting, system performance estimates, or financial projections provided by the Software are strictly indicative. These estimates are based on predictive models, orientation settings, and third-party weather data, and may not reflect your system's true real-world performance. The developer is not responsible for any discrepancies between predicted generation and actual solar generation, nor for any financial decisions made based on these estimates.</p>
+    <p>Any solar generation forecasting, system performance estimates, or financial projections provided by the Software are strictly indicative. These estimates are based on predictive models, orientation settings, and third-party weather data, and may not reflect your system's true real-world performance. The developer is not responsible for any financial decisions made based on these estimates.</p>
 
-    <h2>5. Limitation of Liability</h2>
-    <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE DEVELOPER SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE, INCLUDING BUT NOT LIMITED TO HARDWARE DAMAGE, DATA LOSS, OR FINANCIAL LOSS.</p>
+	<h2>5. Physical Safety & Measurement Tools</h2>
+    <p>The Software includes tools (such as the Spirit Level/Clinometer) to assist with measuring roof pitch and panel angles. By using these tools, you explicitly acknowledge and agree that:</p>
+    <ul>
+        <li><strong>Manual Input Encouraged:</strong> Users are strongly encouraged to manually enter their roof pitch into the Software if the measurements are already known (e.g., from architectural or builder plans) to avoid unnecessary physical risk.</li>
+        <li>Climbing on roofs is inherently dangerous and poses a severe risk of personal injury, falls, or death.</li>
+        <li>If physical measurement is necessary, you are strongly advised to use ground-based measurement methods (such as the "Sightline" method) or to hire a qualified, insured professional.</li>
+        <li>The developer assumes absolute zero liability for any personal injury, property damage, accidents, or death that occur while you are attempting to gather measurements or interact with the Software in any physical capacity.</li>
+    </ul>
 
-    <h2>6. Disclaimer of Warranty</h2>
-    <p>THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT ANY WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. THE DEVELOPER DOES NOT GUARANTEE THAT THE SOFTWARE WILL BE ERROR-FREE OR UNINTERRUPTED.</p>
+    <h2>6. Data Privacy & Local Storage</h2>
+    <p>The Software collects and utilizes API tokens, location data (GPS coordinates for solar forecasting), and telemetry data to function. This data is stored locally on your device. The developer does not transmit, harvest, or store your personal API tokens, passwords, or location data on external developer servers.</p>
 
-    <h2>7. Termination</h2>
+    <h2>7. Limitation of Liability</h2>
+    <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE DEVELOPER SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE, INCLUDING BUT NOT LIMITED TO PERSONAL INJURY, DEATH, PROPERTY DAMAGE, HARDWARE DAMAGE, DATA LOSS, OR FINANCIAL LOSS.</p>
+
+    <h2>8. Disclaimer of Warranty & App Store Platforms</h2>
+    <p>THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT ANY WARRANTIES OF ANY KIND. The developer does not guarantee that the Software will be error-free. Furthermore, you acknowledge that this Agreement is concluded between you and the developer only, and not with Apple Inc., Google LLC, or Microsoft Corporation. These platform providers are not responsible for the Software and have no obligation to furnish any maintenance or support services with respect to the Software.</p>
+
+    <h2>9. Governing Law</h2>
+    <p>This Agreement and your use of the Software shall be governed by and construed in accordance with the laws of Australia. Any disputes arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of the Australian courts.</p>
+
+    <h2>10. Termination</h2>
     <p>The developer reserves the right to terminate this license at any time if you fail to comply with any term of this Agreement. Upon termination, you must cease all use of the Software and delete all copies.</p>
 
-    <h2>8. Contact Information</h2>
+    <h2>11. Contact Information</h2>
     <p>If you have any questions regarding this EULA, please contact: <strong>arbi.elite@gmail.com</strong></p>
 </div>
 
