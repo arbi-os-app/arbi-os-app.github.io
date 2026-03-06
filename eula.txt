@@ -1,0 +1,55 @@
+End User License Agreement
+Last Updated: March 6, 2026
+
+PLEASE READ THIS AGREEMENT CAREFULLY. BY INSTALLING OR USING THE APPLICATION, YOU AGREE TO BE BOUND BY THESE TERMS.
+
+1. Scope of License & Restrictions
+The developer grants you a revocable, non-exclusive, non-transferable, limited license to download, install, and use the arbi application ("Software") for personal, non-commercial purposes strictly in accordance with this Agreement. You agree not to reverse-engineer, decompile, disassemble, or attempt to derive the source code of the Software.
+
+2. Third-Party API & Affiliation
+This Software is a third-party utility. It is not affiliated with, endorsed by, or in any way officially connected with Tesla, Inc.
+* The Software relies on the Tesla Fleet API. Functionality may change or cease if Tesla modifies their API or terms of service.
+* Tesla, Powerwall, and associated logos are trademarks of Tesla, Inc.
+
+3. Automated Charging Features
+Features that automate your battery behavior operate based on your input. By enabling these features, you acknowledge:
+* You are responsible for the accuracy of the energy rates and times entered into the app.
+* The developer is not liable for any electricity billing discrepancies or increased costs from your utility provider.
+* Automation relies on an active internet connection; the developer is not responsible for failures due to connectivity issues.
+
+4. Solar Forecasting & System Estimates
+Any solar generation forecasting, system performance estimates, or financial projections provided by the Software are strictly indicative. These estimates are based on predictive models, orientation settings, and third-party weather data, and may not reflect your system's true real-world performance. The developer is not responsible for any financial decisions made based on these estimates.
+
+5. Physical Safety & Measurement Tools
+The Software includes tools (such as the Spirit Level/Clinometer) to assist with measuring roof pitch and panel angles. By using these tools, you explicitly acknowledge and agree that:
+* Manual Input Encouraged: Users are strongly encouraged to manually enter their roof pitch into the Software if the measurements are already known (e.g., from architectural or builder plans) to avoid unnecessary physical risk.
+* Roof Fall Hazards: Climbing on roofs is inherently dangerous and poses a severe risk of personal injury, falls, or death.
+* Ground & Traffic Hazards (Sightline Method): If utilizing ground-based measurement methods, you must maintain active situational awareness. You agree to ensure you are standing in a safe, pedestrian-designated location completely clear of vehicular traffic, roadways, and other environmental hazards. Do not use the Software while standing in active traffic zones.
+* Absolute Liability Waiver: The developer assumes absolute zero liability for any personal injury, property damage, accidents, or death that occur while you are attempting to gather measurements (whether elevated on a roof or on the ground near roadways) or interacting with the Software in any physical capacity.
+
+6. Data Privacy & Local Storage
+The Software collects and utilizes API tokens, location data (GPS coordinates for solar forecasting), and telemetry data to function. This data is stored locally on your device. The developer does not transmit, harvest, or store your personal API tokens, passwords, or location data on external developer servers.
+
+7. Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE DEVELOPER SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE, INCLUDING BUT NOT LIMITED TO PERSONAL INJURY, DEATH, PROPERTY DAMAGE, HARDWARE DAMAGE, DATA LOSS, OR FINANCIAL LOSS.
+
+8. Indemnification
+You agree to indemnify, defend, and hold harmless the developer, as well as any third-party data providers, API services (including but not limited to Open-Meteo and OpenStreetMap), and platform hosts, from and against any and all claims, liabilities, damages, losses, costs, expenses, or fees (including reasonable attorneys' fees) that arise from or relate to:
+* Your use or misuse of the Software.
+* Your violation of any term of this Agreement.
+* Any physical actions taken by you, your contractors, or any third party acting on your behalf while using or attempting to use the Software (including but not limited to roof access, physical measurements, property damage, or personal injury).
+* Your violation of any rights of a third party.
+
+9. Disclaimer of Warranty & App Store Platforms
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT ANY WARRANTIES OF ANY KIND. The developer does not guarantee that the Software will be error-free. Furthermore, you acknowledge that this Agreement is concluded between you and the developer only, and not with Apple Inc., Google LLC, or Microsoft Corporation. These platform providers are not responsible for the Software and have no obligation to furnish any maintenance or support services with respect to the Software.
+
+10. Governing Law
+This Agreement and your use of the Software shall be governed by and construed in accordance with the laws of Australia. Any disputes arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of the Australian courts.
+
+11. Termination
+The developer reserves the right to terminate this license at any time if you fail to comply with any term of this Agreement. Upon termination, you must cease all use of the Software and delete all copies.
+
+12. Contact Information
+If you have any questions regarding this EULA, please contact: arbi.elite@gmail.com
+
+© 2026 Petros Pashalis. Independent Third-Party Software.
